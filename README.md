@@ -1,20 +1,13 @@
-# foldchange_app
+#  Fold Change App
 
 ##### Description
 
-`foldchange_app` is an application that calculates the ratio (fold change) between a control and treatment condition.
+`foldchange_app` is an application that calculates the ratio (fold change) between the Test and the Control condition.
+It requires 
+- log-transformed data
+- pairing factor which has to be different from the observation (it cannot be barcode, array) 
 
 ##### Details
 
-The application consists of a data input, a workflow and a data output. 
-
-The input data is the [ptk dataset](https://tercen.com/r/755fd3d3f7ad2d91cc89e0cae4b4c9b8)
-
-This workflow has 3 operators:
-- [identity_operator](https://github.com/tercen/identity_operator)
-- [minus_operator](https://github.com/tercen/minus_operator)
-- [mean_operator](https://github.com/tercen/mean_operator)
-
-##### See Also
-
-[foldchange_app](https://github.com/tercen/foldchange_app)
+The `foldchange_app` calculates fold change by subtracting the values of the Test Condition from the Control for each pair within each supergroup. 
+It returns the mean fold change among pairs for each supergroup.
