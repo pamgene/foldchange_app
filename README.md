@@ -9,7 +9,7 @@ It requires
 
 Example input design:
 
-```
+
 | Sample name1 | Replicate | Supergroup | Test Condition | pair  |
 |--------------|-----------|------------|----------------|-------|
 | C-1          | 1         | Sgroup1    | Control        | pair1 |
@@ -20,7 +20,7 @@ Example input design:
 | T1-2         | 2         | Sgroup1    | T1             | pair2 |
 | T2-2         | 2         | Sgroup1    | T2             | pair2 |
 | T3-2         | 2         | Sgroup1    | T3             | pair2 |
-```
+
 
 
 ##### Details
