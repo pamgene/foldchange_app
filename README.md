@@ -9,6 +9,7 @@ It requires
 
 Example input design:
 
+```
 \begin{table}[]
 \begin{tabular}{lllll}
 Sample name1 & Replicate & Supergroup & Test Condition & pair  \\
@@ -22,7 +23,7 @@ T2-2         & 2         & Sgroup1    & T2             & pair2 \\
 T3-2         & 2         & Sgroup1    & T3             & pair2
 \end{tabular}
 \end{table}
-
+```
 
 
 ##### Details
